@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+header{
+    height: 80px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:EC95E6;
+    z-index: 100;
+}
+.logo{
+    text-transform:uppercase;
+    color: rgb(126, 16, 12);
+    font-weight: 900;
+    text-align: center;
+}
+.menu a{
+    color: rgb(134, 2, 24);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:25px;
+    transition: 0.45;
+}
+.mostrar-menu{
+    order: 1px;
+}
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+    color: rgb(80, 141, 255);
+}
+.enca {
+    height: 100px;
+    padding: 20px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-image: url(./portadast.jpg);
+}
+body {
+     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            padding: 16px;
+            color: black;
+        }
+.card {
+    border: 1px solid #923f3f;
+            border-radius: 4px;
+            text-decoration: none;
+            padding: 16px;
+            text-align: center;
+            background-color: #f9f9f9;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+.card img {
+     width: 100%;
+    height: auto;
+        }
+        body {
+            background-color: rgb(201, 148, 212);
+            margin: 0;
+        }
+        
+        header {
+            background-color: rgba(201, 148, 212, 0.8); /* Fondo semi transparente */
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .logo {
+            margin: 0;
+            color: white; /* Color del texto del logotipo */
+        }
+        
+        .menu {
+            margin: 0;
+        }
+        
+        .menu a {
+            display: inline-block;
+            padding: 10px;
+            margin: 0 10px;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.5); /* Fondo semitransparente del botón */
+            color: rgb(201, 148, 212); /* Color del texto del botón */
+            border-radius: 5px;
+        }
+        
+        #dustin {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        
+        #dustin div {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente del cuadro */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        #dustin img {
+            border-radius: 5px;
+        }
+        
+        .boton-saber-mas {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: rgb(201, 148, 212); /* Color de fondo del botón */
+            color: white; /* Color del texto del botón */
+            border-radius: 5px;
+        }

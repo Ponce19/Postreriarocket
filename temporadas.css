@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+header{
+  height: 80px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:EC95E6;
+  z-index: 100;
+}
+.logo{
+  padding: 20px;
+  text-transform:uppercase;
+  color:D6B3D6;
+  font-weight: 900;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.imagen {
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.card p {
+  margin-top: 20px;
+}
+.menu {
+  margin: 0;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white; /* Color del texto de los enlaces */
+}
+#dustin{
+  padding: 25px 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  }
+  #dustin img{
+      border-radius: 100%;
+  }
+  #dustin div{
+      padding: 30px 30px;
+  }
+  #dustin div h4{
+      color:rgb(37, 8, 167);
+      font-size: 20px;
+      margin:15px 0px;
+  }
+  #dustin div p{
+      color: #a70303be;
+      justify-content: center;
+      font-size: 14px;
+  }        header {
+    background-color: rgba(201, 148, 212, 0.8); /* Fondo semi transparente */
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+    color: white; /* Color del texto del logotipo */
+}
+
+.menu {
+    margin: 0;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo semitransparente del botón */
+    color: rgb(201, 148, 212); /* Color del texto del botón */
+    border-radius: 5px;
+}
+body {
+  background-color: rgb(201, 148, 212);
+  margin: 0;
+  font-family: Arial, sans-serif; /* Establece una fuente común para el texto */
+}
+
+header {
+  background-color: rgba(201, 148, 212, 0.8);
+  padding: 15px;
+  text-align: center;
+}
+
+.logo {
+  margin: 0;
+  color: white;
+}
+
+.menu {
+  margin: 0;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente del botón */
+  color: rgb(201, 148, 212);
+  border-radius: 5px;
+}
+
+#dustin {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#dustin div {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#dustin img {
+  border-radius: 5px;
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+}
+
+.boton-saber-mas {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: rgb(201, 148, 212);
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px; /* Añade un espacio entre los botones y los cuadros */
+}
